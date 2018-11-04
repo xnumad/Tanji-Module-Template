@@ -23,8 +23,10 @@ The reverse way of how to add it: simply delete the ZIP.
 - Create a new project in Visual Studio
 - Choose the "Visual C#" category in which the template should appear as last in the list
 - Add the dependencys Sulakore and Tangine!
+
 If you open Form1.cs before adding the dependencys it will fuck you up. If so, add the dependencys *then* and *close and reopen* the solution (if you only open it while a file in it is the active tab, it won't reload).
 
 # Make a template yourself
 Visual Studio menu bar "Project"/Export Template…
+
 E.g. if Tanji modules target a new .NET Framework version and you want to contribute by pushing an updated version.
