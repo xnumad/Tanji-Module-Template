@@ -17,7 +17,7 @@ Place the ZIP in the default Project template directory `%userprofile%\Documents
 If you set a custom directory, you can see it in Visual Studio menu bar "Tools"/Options…/Projects and Solutions/Locations/User project templates location
 
 # Delete the template
-Simply delete the ZIP.
+The reverse way of how to add it: simply delete the ZIP.
 
 # Use the template
 - Create a new project in Visual Studio
