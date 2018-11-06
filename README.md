@@ -1,7 +1,7 @@
 # Tanji Module Template
 ![New project](New%20project.png)
 
-Basic Tanji module framework:
+Basic Tanji module base:
 - Visual C# Windows Forms App
 - targeting .NET Framework 4.7.1
 - added `using` directives
@@ -12,7 +12,7 @@ Basic Tanji module framework:
 Based on Darkbox Urban resource ["Tanji/For developers/Plugin development/Setting up"](https://urban.darkbox.nl/tanji/develop/7) (revision: last edited: 23-05-2018 19:16:31) by [Squiz](https://urban.darkbox.nl/account/Squiz) which details the manual steps.
 
 # Add the template
-Place the ZIP in the default Project template directory `%userprofile%\Documents\Visual Studio 2017\Templates\ProjectTemplates\`
+Place the released ZIP in the default Project template directory `%userprofile%\Documents\Visual Studio 2017\Templates\ProjectTemplates\`
 
 If you set a custom directory, you can see it in Visual Studio menu bar "Tools"/Options…/Projects and Solutions/Locations/User project templates location
 
@@ -27,6 +27,10 @@ The reverse way of how to add it: simply delete the ZIP.
 If you open Form1.cs before adding the dependencys it will fuck you up. If so, add the dependencys *then* and *close and reopen* the solution (if you only open it while a file in it is the active tab, it won't reload).
 
 # Make a template yourself
-Visual Studio menu bar "Project"/Export Template…
+- Visual Studio menu bar "Project"/Export Template…
+- Keep Template Type = Project template
+- Append version number to the template name (e.g. `v1.0`)
+- Set description `Basic Tanji module base`
+- Use the [Tanji icon](https://github.com/ArachisH/Tanji/blob/master/Tanji/Resources/Tanji_256.ico) as Icon Image
 
 E.g. if Tanji modules target a new .NET Framework version and you want to contribute by pushing an updated version.
