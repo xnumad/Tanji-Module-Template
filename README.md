@@ -6,7 +6,7 @@ Basic Tanji module base:
 - targeting .NET Framework 4.7.1
 - added `using` directives
 - added mandatory `[Module()]` line
-- renamed inheritence from `Form` to `ExtensionForm`
+- renamed inheritance from `Form` to `ExtensionForm`
 
 # Acknowledgements
 Based on Darkbox Urban resource ["Tanji/For developers/Plugin development/Setting up"](https://urban.darkbox.nl/tanji/develop/7) (revision: last edited: 23-05-2018 19:16:31) by [Squiz](https://urban.darkbox.nl/account/Squiz) which details the manual steps.
