@@ -14,7 +14,7 @@ Based on Darkbox Urban resource ["Tanji/For developers/Plugin development/Settin
 # Add the template
 Place the released ZIP in the default Project template directory `%userprofile%\Documents\Visual Studio 2017\Templates\ProjectTemplates\`
 
-If you set a custom directory, you can see it in Visual Studio menu bar "Tools"/Options…/Projects and Solutions/Locations/User project templates location
+If you have set a custom directory, you can see it at `Visual Studio menu bar "Tools"/Options…/Projects and Solutions/Locations/User project templates location`
 
 # Delete the template
 The reverse way of how to add it: simply delete the ZIP.
@@ -26,6 +26,9 @@ The reverse way of how to add it: simply delete the ZIP.
 
 If you open Form1.cs before adding the dependencys it will fuck you up. If so, add the dependencys *then* and *close and reopen* the solution (if you only open it while a file in it is the active tab, it won't reload).
 
+- Change the Assembly name of the project at `Visual Studio menu bar "Project"/Properties…/Application/Assembly name`
+
+You may also want to update the Copyright year at `Assembly Information…`
 # Make a template yourself
 - Visual Studio menu bar "Project"/Export Template…
 - Keep Template Type = Project template
